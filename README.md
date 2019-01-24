@@ -13,18 +13,28 @@ git clone https://github.com/wulabing/SSR-manyuser_glzjin_shell.git SSR
 
 cd SSR
 ```
+
+git clone https://github.com/yuanfirst/SSR-manyuser_glzjin_shell.git SSR
+
+cd SSR
+旧版本停止维护，目前不可用
+
+新版本安装：
+
+chmod +x shadowsocks_new.sh
+
+./shadowsocks_new.sh install | tee ss.log
+
+chmod +x /root/shadowsocks/*.sh
+
+
 旧版本安装：
 ```
 chmod +x shadowsocks.sh
 
 ./shadowsocks.sh | tee ss.log
 ```
-新版本安装：
-```
-chmod +x shadowsocks_new.sh
 
-./shadowsocks_new.sh install | tee ss.log
-```
 # 相关目录
 
 后端默认安装目录：`/root/shadowsocks`
